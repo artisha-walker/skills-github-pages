@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Event ROI Calculator</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="calculator">
+
+    <h1>Event ROI Calculator</h1>
+
+    <p>Find out whether attending an event actually paid off.</p>
+
+    <label>Ticket Cost</label>
+    <input type="number" id="ticket">
+
+    <label>Travel Cost</label>
+    <input type="number" id="travel">
+
+    <label>Hotel Cost</label>
+    <input type="number" id="hotel">
+
+    <label>Other Expenses</label>
+    <input type="number" id="other">
+
+    <label>Revenue Generated</label>
+    <input type="number" id="revenue">
+
+    <button onclick="calculateROI()">Calculate ROI</button>
+
+    <div id="results"></div>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
